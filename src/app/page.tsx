@@ -15,7 +15,7 @@ import { Star } from "lucide-react";
 export default function Home() {
   const featuredProducts = [
     {
-      img: "https://picsum.photos/seed/prod1/400/300",
+      img: "https://i.postimg.cc/wMrRSjBn/feature_prod_01.jpg",
       rating: 3,
       price: "$240.00",
       name: "Gym Weight",
@@ -25,7 +25,7 @@ export default function Home() {
       hint: "gym weight",
     },
     {
-      img: "https://picsum.photos/seed/prod2/400/300",
+      img: "https://i.postimg.cc/fyPS6RL4/feature_prod_02.jpg",
       rating: 3,
       price: "$480.00",
       name: "Cloud Nike Shoes",
@@ -35,7 +35,7 @@ export default function Home() {
       hint: "nike shoes",
     },
     {
-      img: "https://picsum.photos/seed/prod3/400/300",
+      img: "https://i.postimg.cc/0j4KLyQ1/feature_prod_03.jpg",
       rating: 5,
       price: "$360.00",
       name: "Summer Addides Shoes",
@@ -62,7 +62,7 @@ export default function Home() {
                 <div className="grid grid-cols-1 lg:grid-cols-2 p-10 lg:p-20">
                   <div className="mx-auto lg:order-last">
                     <Image
-                      src="https://picsum.photos/seed/banner1/600/500"
+                      src="https://i.postimg.cc/3NNDSv3s/banner-img-01.jpg"
                       alt="Banner 1"
                       width={600}
                       height={500}
@@ -131,7 +131,7 @@ export default function Home() {
                 <div className="grid grid-cols-1 lg:grid-cols-2 p-10 lg:p-20">
                   <div className="mx-auto lg:order-last">
                     <Image
-                      src="https://picsum.photos/seed/banner2/600/500"
+                      src="https://i.postimg.cc/NFFrJHgq/banner-img-02.jpg"
                       alt="Banner 2"
                       width={600}
                       height={500}
@@ -166,7 +166,7 @@ export default function Home() {
                 <div className="grid grid-cols-1 lg:grid-cols-2 p-10 lg:p-20">
                   <div className="mx-auto lg:order-last">
                     <Image
-                      src="https://picsum.photos/seed/banner3/600/500"
+                      src="https://i.postimg.cc/4yyhL9JR/banner-img-03.jpg"
                       alt="Banner 3"
                       width={600}
                       height={500}
@@ -213,7 +213,7 @@ export default function Home() {
           <div className="text-center">
             <Link href="/shop">
               <Image
-                src="https://picsum.photos/seed/cat1/300/300"
+                src="https://i.postimg.cc/KjW3d8YW/category-img-01.jpg"
                 alt="Watches"
                 width={300}
                 height={300}
@@ -233,7 +233,7 @@ export default function Home() {
           <div className="text-center">
             <Link href="/shop">
               <Image
-                src="https://picsum.photos/seed/cat2/300/300"
+                src="https://i.postimg.cc/hvYQHtGw/category-img-02.jpg"
                 alt="Shoes"
                 width={300}
                 height={300}
@@ -253,7 +253,7 @@ export default function Home() {
           <div className="text-center">
             <Link href="/shop">
               <Image
-                src="https://picsum.photos/seed/cat3/300/300"
+                src="https://i.postimg.cc/rsHRvwpB/category-img-03.jpg"
                 alt="Accessories"
                 width={300}
                 height={300}

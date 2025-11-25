@@ -9,10 +9,10 @@ const services = [
 ];
 
 const brands = [
-  "https://picsum.photos/seed/brand1/200/100",
-  "https://picsum.photos/seed/brand2/200/100",
-  "https://picsum.photos/seed/brand3/200/100",
-  "https://picsum.photos/seed/brand4/200/100",
+  "https://i.postimg.cc/WzzJWk2P/brand-01.png",
+  "https://i.postimg.cc/NFn2Wj0C/brand-02.png",
+  "https://i.postimg.cc/HnN8fkLh/brand-03.png",
+  "https://i.postimg.cc/KjW3d8Ys/brand-04.png",
 ];
 
 export default function AboutPage() {
@@ -32,7 +32,7 @@ export default function AboutPage() {
             </div>
             <div className="md:pl-10 mt-5 md:mt-0">
               <Image
-                src="https://picsum.photos/seed/abouthero/600/400"
+                src="https://i.postimg.cc/J00B6k1w/about-hero.jpg"
                 alt="About Hero"
                 width={600}
                 height={400}

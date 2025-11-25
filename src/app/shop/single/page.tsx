@@ -15,20 +15,20 @@ import Link from 'next/link';
 import { useState } from "react";
 
 const relatedProducts = [
-    { name: "Red Clothing", img: "https://picsum.photos/seed/related1/400/300", rating: 4, price: "$20.00", sizes: "M/L/X/XL", hint: "red clothing" },
-    { name: "White Shirt", img: "https://picsum.photos/seed/related2/400/300", rating: 3, price: "$25.00", sizes: "M/L/X/XL", hint: "white shirt" },
-    { name: "Oupidatat non", img: "https://picsum.photos/seed/related3/400/300", rating: 5, price: "$45.00", sizes: "M/L/X/XL", hint: "clothing" },
-    { name: "Black Fashion", img: "https://picsum.photos/seed/related4/400/300", rating: 3, price: "$60.00", sizes: "M/L/X/XL", hint: "black fashion" },
-    { name: "Oupidatat non", img: "https://picsum.photos/seed/related5/400/300", rating: 3, price: "$80.00", sizes: "M/L/X/XL", hint: "clothing" },
+    { name: "Red Clothing", img: "https://i.postimg.cc/05XS6cCL/shop_08.jpg", rating: 4, price: "$20.00", sizes: "M/L/X/XL", hint: "red clothing" },
+    { name: "White Shirt", img: "https://i.postimg.cc/7PtzCmNF/shop_09.jpg", rating: 3, price: "$25.00", sizes: "M/L/X/XL", hint: "white shirt" },
+    { name: "Oupidatat non", img: "https://i.postimg.cc/RCpt3XRr/shop_10.jpg", rating: 5, price: "$45.00", sizes: "M/L/X/XL", hint: "clothing" },
+    { name: "Black Fashion", img: "https://i.postimg.cc/jq3fWZX0/shop_11.jpg", rating: 3, price: "$60.00", sizes: "M/L/X/XL", hint: "black fashion" },
+    { name: "Oupidatat non", img: "https://i.postimg.cc/05XS6cCL/shop_08.jpg", rating: 3, price: "$80.00", sizes: "M/L/X/XL", hint: "clothing" },
 ];
 
 const productImages = [
-    "https://picsum.photos/seed/single-prod/600/600",
-    "https://picsum.photos/seed/thumb1/100/100",
-    "https://picsum.photos/seed/thumb2/100/100",
-    "https://picsum.photos/seed/thumb3/100/100",
-    "https://picsum.photos/seed/thumb4/100/100",
-    "https://picsum.photos/seed/thumb5/100/100",
+    "https://i.postimg.cc/J7YXyPQ5/product-single-10.jpg",
+    "https://i.postimg.cc/Fz6k2HRv/product-single-01.jpg",
+    "https://i.postimg.cc/MHLfhpTz/product-single-02.jpg",
+    "https://i.postimg.cc/rsHRvwmM/product-single-03.jpg",
+    "https://i.postimg.cc/zvQH9GBD/product-single-04.jpg",
+    "https://i.postimg.cc/Fz6k2HRK/product-single-05.jpg",
 ];
 
 
@@ -56,7 +56,7 @@ export default function ShopSinglePage() {
             <div className="grid grid-cols-5 gap-2">
                 {productImages.slice(1).map((img, i) => (
                     <div key={i}>
-                        <button onClick={() => setMainImage(img.replace('100/100', '600/600'))}>
+                        <button onClick={() => setMainImage(img)}>
                         <Image
                             className="card-img img-fluid"
                             src={img}
