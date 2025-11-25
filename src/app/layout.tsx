@@ -1,3 +1,4 @@
+
 import type { Metadata } from "next";
 import { Roboto } from "next/font/google";
 import "./globals.css";
@@ -13,6 +14,9 @@ const roboto = Roboto({
 export const metadata: Metadata = {
   title: "Zay Shop",
   description: "eCommerce Template",
+  icons: {
+    icon: "https://i.postimg.cc/fyPS6Rb6/favicon.jpg",
+  },
 };
 
 export default function RootLayout({
