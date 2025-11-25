@@ -4,15 +4,19 @@ import {
   MapPin,
   Phone,
   Mail,
+  Facebook,
+  Instagram,
+  Twitter,
+  Linkedin
 } from "lucide-react";
 import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
 
 const socialLinks = [
-    { href: "https://facebook.com/templatemo", icon: "/img/facebook.svg", label: "Facebook" },
-    { href: "https://www.instagram.com/", icon: "/img/instagram.svg", label: "Instagram" },
-    { href: "https://twitter.com/", icon: "/img/twitter.svg", label: "Twitter" },
-    { href: "https://www.linkedin.com/", icon: "/img/linkedin.svg", label: "Linkedin" },
+    { href: "https://facebook.com/templatemo", icon: <Facebook className="h-5 w-5"/>, label: "Facebook" },
+    { href: "https://www.instagram.com/", icon: <Instagram className="h-5 w-5"/>, label: "Instagram" },
+    { href: "https://twitter.com/", icon: <Twitter className="h-5 w-5"/>, label: "Twitter" },
+    { href: "https://www.linkedin.com/", icon: <Linkedin className="h-5 w-5"/>, label: "Linkedin" },
   ];
 
 export default function Footer() {
@@ -100,7 +104,7 @@ export default function Footer() {
                     href={link.href}
                     className="border border-gray-600 rounded-full p-2 hover:bg-gray-300 hover:text-gray-800"
                     >
-                    <img src={link.icon} alt={link.label} className="h-5 w-5"/>
+                    {link.icon}
                 </a>
             ))}
           </div>

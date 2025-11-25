@@ -29,6 +29,10 @@ const productImages = [
     "https://i.postimg.cc/rsHRvwmM/product-single-03.jpg",
     "https://i.postimg.cc/zvQH9GBD/product-single-04.jpg",
     "https://i.postimg.cc/Fz6k2HRK/product-single-05.jpg",
+    "https://i.postimg.cc/tJcnL4T7/product-single-06.jpg",
+    "https://i.postimg.cc/SRPYwxsX/product-single-07.jpg",
+    "https://i.postimg.cc/RhYJjZFW/product-single-08.jpg",
+    "https://i.postimg.cc/XN15ZQgK/product-single-09.jpg",
 ];
 
 

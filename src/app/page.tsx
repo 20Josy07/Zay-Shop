@@ -62,7 +62,7 @@ export default function Home() {
                 <div className="grid grid-cols-1 lg:grid-cols-2 p-10 lg:p-20">
                   <div className="mx-auto lg:order-last">
                     <Image
-                      src="https://i.postimg.cc/3NNDSv3s/banner-img-01.jpg"
+                      src="https://i.postimg.cc/3NNDSv3s/banner_img_01.jpg"
                       alt="Banner 1"
                       width={600}
                       height={500}
@@ -131,7 +131,7 @@ export default function Home() {
                 <div className="grid grid-cols-1 lg:grid-cols-2 p-10 lg:p-20">
                   <div className="mx-auto lg:order-last">
                     <Image
-                      src="https://i.postimg.cc/NFFrJHgq/banner-img-02.jpg"
+                      src="https://i.postimg.cc/NFFrJHgq/banner_img_02.jpg"
                       alt="Banner 2"
                       width={600}
                       height={500}
@@ -166,7 +166,7 @@ export default function Home() {
                 <div className="grid grid-cols-1 lg:grid-cols-2 p-10 lg:p-20">
                   <div className="mx-auto lg:order-last">
                     <Image
-                      src="https://i.postimg.cc/4yyhL9JR/banner-img-03.jpg"
+                      src="https://i.postimg.cc/4yyhL9JR/banner_img_03.jpg"
                       alt="Banner 3"
                       width={600}
                       height={500}
@@ -213,7 +213,7 @@ export default function Home() {
           <div className="text-center">
             <Link href="/shop">
               <Image
-                src="https://i.postimg.cc/KjW3d8YW/category-img-01.jpg"
+                src="https://i.postimg.cc/KjW3d8YW/category_img_01.jpg"
                 alt="Watches"
                 width={300}
                 height={300}
@@ -233,7 +233,7 @@ export default function Home() {
           <div className="text-center">
             <Link href="/shop">
               <Image
-                src="https://i.postimg.cc/hvYQHtGw/category-img-02.jpg"
+                src="https://i.postimg.cc/hvYQHtGw/category_img_02.jpg"
                 alt="Shoes"
                 width={300}
                 height={300}
@@ -253,7 +253,7 @@ export default function Home() {
           <div className="text-center">
             <Link href="/shop">
               <Image
-                src="https://i.postimg.cc/rsHRvwpB/category-img-03.jpg"
+                src="https://i.postimg.cc/rsHRvwpB/category_img_03.jpg"
                 alt="Accessories"
                 width={300}
                 height={300}

@@ -7,6 +7,10 @@ import {
   Menu,
   Mail,
   Phone,
+  Facebook,
+  Instagram,
+  Twitter,
+  Linkedin,
 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import {
@@ -29,18 +33,18 @@ import { Input } from "@/components/ui/input";
 const socialLinks = [
   {
     href: "https://facebook.com/templatemo",
-    icon: "/img/facebook.svg",
+    icon: <Facebook className="h-4 w-4" />,
     label: "Facebook",
   },
   {
     href: "https://www.instagram.com/",
-    icon: "/img/instagram.svg",
+    icon: <Instagram className="h-4 w-4" />,
     label: "Instagram",
   },
-  { href: "https://twitter.com/", icon: "/img/twitter.svg", label: "Twitter" },
+  { href: "https://twitter.com/", icon: <Twitter className="h-4 w-4" />, label: "Twitter" },
   {
     href: "https://www.linkedin.com/",
-    icon: "/img/linkedin.svg",
+    icon: <Linkedin className="h-4 w-4" />,
     label: "Linkedin",
   },
 ];
@@ -77,8 +81,8 @@ export default function Header() {
             </div>
             <div className="flex items-center space-x-3">
               {socialLinks.map(link => (
-                  <a href={link.href} target="_blank" rel="sponsored" key={link.label}>
-                      <img src={link.icon} alt={link.label} className="h-4 w-4" />
+                  <a href={link.href} target="_blank" rel="sponsored" key={link.label} className="text-white">
+                      {link.icon}
                   </a>
               ))}
             </div>
