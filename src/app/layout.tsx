@@ -1,20 +1,18 @@
-import type { Metadata } from 'next';
-import './globals.css';
-import { Inter } from 'next/font/google';
-import { cn } from '@/lib/utils';
-import { Header } from '@/components/layout/header';
-import { Footer } from '@/components/layout/footer';
-import { Toaster } from '@/components/ui/toaster';
-import { CartProvider } from '@/lib/cart-context';
+import type { Metadata } from "next";
+import { Roboto } from "next/font/google";
+import "./globals.css";
+import Header from "@/components/Header";
+import Footer from "@/components/Footer";
+import { Toaster } from "@/components/ui/toaster";
 
-const inter = Inter({
-  subsets: ['latin'],
-  variable: '--font-inter',
+const roboto = Roboto({
+  subsets: ["latin"],
+  weight: ["100", "300", "400", "500", "700", "900"],
 });
 
 export const metadata: Metadata = {
-  title: 'Zay-Shop - Modern Shoe Store',
-  description: 'Find your perfect pair of shoes at Zay-Shop.',
+  title: "Zay Shop",
+  description: "eCommerce Template",
 };
 
 export default function RootLayout({
@@ -23,16 +21,12 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className="light">
-      <body className={cn('min-h-screen bg-background font-sans antialiased', inter.variable)}>
-        <CartProvider>
-          <div className="relative flex min-h-screen flex-col">
-            <Header />
-            <main className="flex-1">{children}</main>
-            <Footer />
-          </div>
-          <Toaster />
-        </CartProvider>
+    <html lang="en">
+      <body className={roboto.className}>
+        <Header />
+        <main>{children}</main>
+        <Footer />
+        <Toaster />
       </body>
     </html>
   );
