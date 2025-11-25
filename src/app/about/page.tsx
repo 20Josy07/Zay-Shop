@@ -32,7 +32,7 @@ export default function AboutPage() {
             </div>
             <div className="md:pl-10 mt-5 md:mt-0">
               <Image
-                src="https://i.postimg.cc/J00B6k1w/about-hero.jpg"
+                src="https://i.postimg.cc/yNGYg11y/about-hero.svg"
                 alt="About Hero"
                 width={600}
                 height={400}
