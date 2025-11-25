@@ -15,7 +15,7 @@ export const metadata: Metadata = {
   title: "Zay Shop",
   description: "eCommerce Template",
   icons: {
-    icon: "https://i.postimg.cc/fyPS6Rb6/favicon.jpg",
+    icon: "/favicon.ico",
   },
 };
 
