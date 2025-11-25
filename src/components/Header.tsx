@@ -7,14 +7,14 @@ import {
   Mail,
   Phone,
 } from "lucide-react";
-import { Button } from "./ui/button";
+import { Button } from "@/components/ui/button";
 import {
   Dialog,
   DialogContent,
   DialogHeader,
   DialogTitle,
   DialogTrigger,
-} from "./ui/dialog";
+} from "@/components/ui/dialog";
 import {
     Sheet,
     SheetContent,
@@ -23,7 +23,7 @@ import {
     SheetTitle,
     SheetTrigger,
   } from "@/components/ui/sheet"
-import { Input } from "./ui/input";
+import { Input } from "@/components/ui/input";
 
 const socialLinks = [
   {

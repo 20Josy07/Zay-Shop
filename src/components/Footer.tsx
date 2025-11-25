@@ -1,11 +1,12 @@
+
 import Link from "next/link";
 import {
   MapPin,
   Phone,
   Mail,
 } from "lucide-react";
-import { Input } from "./ui/input";
-import { Button } from "./ui/button";
+import { Input } from "@/components/ui/input";
+import { Button } from "@/components/ui/button";
 
 const socialLinks = [
     { href: "https://facebook.com/templatemo", icon: "/img/facebook.svg", label: "Facebook" },
